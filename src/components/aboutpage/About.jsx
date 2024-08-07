@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './About.css'
 
 const About = () => {
@@ -9,8 +9,8 @@ const About = () => {
                     About
                 </div>
                 <div className="right">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At commodi ullam nemo dolores dicta odit quidem ipsum! Commodi cupiditate similique facilis aliquid delectus magni quos, illo optio, except
-
+                    <p>hi, my name is <br /><span>sylvester onukafor. <br />i build things for the web.</span></p>
+                    <p>i am a software engineer speciallizing in building (and occasionally designing) exceptional digital experiences.i am focused on building accessible, human-centered products such as this and more.</p>
                 </div>
             </section>
         </div>

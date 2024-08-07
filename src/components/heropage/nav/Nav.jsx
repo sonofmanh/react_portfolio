@@ -1,11 +1,13 @@
 
+import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
 
-function Nav() {
+
+function Nav() {  
     return (
-        <div id='nav' className='nav'>
+        <div   id='nav' className='nav'>
             
-            <img src="images/general.jpg" alt="profile image" />
+            <motion.img whileHover={{scale:1.1}} src="images/general.jpg" alt="profile image" />
             <p>sylvester onukafor <br />webdev & python programmer</p>
             <div>
                 <ul>
